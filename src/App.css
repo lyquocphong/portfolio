@@ -1,3 +1,5 @@
+/* App */
+
 .header-color {
   background: #833ab4;
   /* fallback for old browsers */
@@ -6,6 +8,13 @@
   background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.avatar-img {
+  height: 205px;
+  padding-top: 5em;
+}
+
+/* Landing page */
 
 .landing-grid {
   background: #833ab4;
@@ -22,12 +31,7 @@
   height: 100%;
 }
 
-.avatar-img {
-  height: 205px;
-  padding-top: 5em;
-}
-
-.banner-text {
+.landing-grid .banner-text {
   background-color: black;
   opacity: .8;
   width: 75%;
@@ -35,33 +39,41 @@
   border-radius: 10px;
 }
 
-.banner-text h1 {
+.landing-grid .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
   color: white;
 }
 
-.banner-text hr {
+.landing-grid .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: auto;
 }
 
-.banner-text p {
+.landing-grid .banner-text p {
   color: white;
   font-size: 20px;
   padding: 1em;
 }
 
-.banner-text .social-links {
+.landing-grid .banner-text .social-links {
   display: flex;
   width: 50%;
   margin: auto;
   justify-content: center;
 }
 
-.banner-text .social-links i {
+.landing-grid .banner-text .social-links i {
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+/* Resume page */
+
+.resume-grid .resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
 }
